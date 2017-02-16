@@ -17,8 +17,8 @@ title: Elegance 🐎 البرمجة الأنيقة
 email: elegance@rathathhub.com
 description: > # this means to ignore newlines until "baseurl:"
   Elegance Blog proves how an elegant programming should be.
-  It might be an over engineering, however, we are sure that you will apologize us 👋  
-baseurl: "http://elegance." # the subpath of your site, e.g. /blog
+  It might be an over engineering, however, we are sure that you will apologize us 👋
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
