@@ -1,5 +1,5 @@
 #!/bin/sh
-jekyll build;
+bundle exec jekyll build; # or jekyll build;
 git add .
 
 echo 'Enter the commit message:'
@@ -11,4 +11,3 @@ git push;
 #read branch
 #git push origin $branch
 open http://elegance.abdennoor.com;
-read

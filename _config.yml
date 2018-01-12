@@ -14,19 +14,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 🐎 Elegance
-email: elegance@rathathhub.com
+email: mail@abdennoor.com
+permalink: /:title
 description: >
   Elegance Blog proves how an elegant programming should be.
   It might be an over engineering, however,
-  we are sure that you will apologize us 👋
+  we are sure you will apologize us 👋
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  abdennour
 
 # Build settings
+# future: true
 markdown: kramdown
-theme: minima
+theme: minima # run "bundle show minima" to get the dir of this theme
+excerpt_separator: ""
 gems:
   - jekyll-feed
 exclude:

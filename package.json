@@ -1,0 +1,35 @@
+{
+  "name": "abdennour-blog",
+  "version": "1.0.0",
+  "description": "Abdennour Blog elegance.abdennoor.com",
+  "main": "index.js",
+  "scripts": {
+    "start":"bundle exec jekyll serve",
+    "build":"bundle exec jekyll build",
+    "deploy": "sh ./deploy",
+    "create-post": "bundle exec jekyll post",
+    "create-page": "bundle exec jekyll page",
+    "create-draft": "bundle exec jekyll draft",
+    "help": "open https://github.com/jekyll/jekyll-compose/blob/master/README.md#usage"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdennour/abdennour.github.io.git"
+  },
+  "keywords": [
+    "blog",
+    "abdennour",
+    "toumi",
+    "DevOps",
+    "Javascript",
+    "software",
+    "engineering"
+  ],
+  "author": "Abdennour TOUMI <http://in.abdennoor.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdennour/abdennour.github.io/issues"
+  },
+  "homepage": "https://github.com/abdennour/abdennour.github.io#readme"
+}
