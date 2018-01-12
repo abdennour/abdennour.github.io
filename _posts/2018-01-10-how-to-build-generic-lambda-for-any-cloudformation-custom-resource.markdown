@@ -57,10 +57,10 @@ Intuitively, we will build a Lambda function for each case conversion :
 CustomLowerCaseEnvironment:
   Type: Custom::GetLowerCaseEnvironment
   Properties:      
-    ServiceToken: !GetAtt PrinterFunction.Arn
+    ServiceToken: !GetAtt toLowerCaseFunction.Arn
     value: !Ref Environment
 
-PrinterFunction:
+toLowerCaseFunction:
   Type: AWS::Lambda::Function
   Properties:
     Handler: "index.handler"
@@ -71,10 +71,10 @@ PrinterFunction:
       ZipFile: |
        const response= require('cfn-response');
        exports.handler = function(event, context) {
-         const { value } = event.ResourceProperties; // Get Properties
+         const { value } = event.ResourceProperties; // ⚠️ Get Properties
          if (event.RequestType === 'Create') {
            response.send(event, context, response.SUCCESS, {
-             value: value.toLowerCase() //  Here the main instruction
+             value: value.toLowerCase() // ⚠️  Here the main instruction
            });
            return;
          }
