@@ -226,3 +226,10 @@ Even though the shared Lambda will require more privileges (ec2:DescribeImages),
 Nevertheless, we can leverage nested stacks and let the shared lambda more reusable by avoid hard coding its IAM role.
 
 Enjoy! 👍🏻
+
+
+<!--
+// TODO
+Share a template Let visitors launches stacks on their own environment:
+https://aws.amazon.com/blogs/devops/construct-your-own-launch-stack-url/
+-->
