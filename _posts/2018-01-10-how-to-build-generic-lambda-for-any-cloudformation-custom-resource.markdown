@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "How to build Generic Lambda for any Cloudformation custom resource"
 date:   2018-01-10 06:03:00 +0733
 categories: Cloudformation Lambda infrastructure-as-code DevOps javascript nodejs AWS Cloud

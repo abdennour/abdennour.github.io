@@ -3,7 +3,6 @@ layout: post
 title:  "Welcome to 🐎 Elegance Programming Blog !"
 date:   2017-02-16 07:02:28 +0300
 categories: welcome elegance
-comments: true
 ---
 
 {% highlight javascript %}
