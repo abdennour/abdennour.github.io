@@ -15,7 +15,7 @@ Finally, I passed both:  AWS DevOps engineer certification exam was acheived the
 In this post, I will share my experience with the last one in case anybody is planning for it.
 
 
-# Motivations
+## Motivations
 
 - Daily work with AWS technologies within DevOps environment/processes for almost 2 years.
 
@@ -30,7 +30,7 @@ In this post, I will share my experience with the last one in case anybody is pl
 - "if you pass this I believe you deserve the credentials." ⁽¹⁾
 
 
-# Challenges
+## Challenges
 
 - No prior experience with Professional exams in **architecture** (.ie. TOGAF ):  The AWS Professional Solutions architect exam is the first professional exam about architecture, and I am really glad to pass it since the first attempt.
 
@@ -39,7 +39,7 @@ In this post, I will share my experience with the last one in case anybody is pl
 
 - AWS is frequently updating existing services and is continuously releasing new services: Definitely, they don't assume to know all services, Nevertheless, you feel there is no line of demarcation.
 
-# Preparation
+## Preparation
 
 - **Re:Invent:** Watch as many of the [Re:Invent videos](http://reinventvideos.com), specifically the deep dive ones; they actually contain information directly applicable to the exam.
 
@@ -49,16 +49,16 @@ In this post, I will share my experience with the last one in case anybody is pl
 
 - **White papers** Do not ignore this treasure.
 
-# Exam tips
+## Tips
 
-## General tips
+# General tips
 
 - Forget thinking about answers as right ("true") or wrong ("false"). In this exam, you may choose between the better and the best. Or, you may prioritize  the "worse" upon the worst. ⁽²⁾ “ليس العاقل الذي يعلم الخير من الشر، و إنما العاقل الذي يعلم خير الخيرين و شر الشرين.” :  which means "The wise is not who differentiates between right and wrong. but the wise differentiates between the best and the better, and differentiates between the worst and the worse".
 
 - Have a good understanding of all objectives explained in the [blueprint](https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS_certified_solutions_architect_professional_blueprint.pdf) and how they interact with each other.
 
 
-## Special tips
+# Exam tips
 
 
 - EBS optimization, IOPS, MB/s and limits of them. Burstable credits also.
@@ -83,8 +83,9 @@ In this post, I will share my experience with the last one in case anybody is pl
 
 ____
 
+
 **References**
 
-⁽¹⁾: http://ozaws.com/2015/09/17/aws-professional-solution-architect-certification-tips/
+⁽¹⁾: [http://ozaws.com/2015/09/17/aws-professional-solution-architect-certification-tips/](http://ozaws.com/2015/09/17/aws-professional-solution-architect-certification-tips/)
 
 ⁽²⁾: Stated by Taqī ad-Dīn Ahmad ibn Taymiyyah before 700 years
