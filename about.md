@@ -17,8 +17,9 @@ I am also Top 1 stackoverflow user in my Country Tunisia 🇹🇳 according to m
 
 Also certified 🥇 :
 
+- 🥇 AWS Solutions Architect - Professional
 - 🥇 AWS DevOps Engineer - Professional
-- 🥇 AWS Solutions Architect - Associate
+- 🏅 AWS Solutions Architect - Associate
 - 🏅 AWS SysOps Administrator - Associate
 - 🏅 AWS Developer - Associate
 - 🏅 Linux Professional Institute (LPIC-1)
