@@ -10,7 +10,7 @@ categories: AWS Professional Architecture Cloud Exam DevOps Abdennour Tunisia
 
 After passing all the AWS Associate certification exams and daily working with AWS technologies for over two years, I hesitated between the two Professional level exams;  **AWS DevOps engineer certification exam** or **AWS Professional Solutions Architect certification exam**.
 
-Finally, I passed both:  AWS DevOps engineer certification exam was acheived the last month and AWS Professional Solutions Architect was successfully completed yesterday.
+Finally, I passed both:  AWS DevOps engineer certification exam was achieved the last month and AWS Professional Solutions Architect was successfully completed yesterday.
 
 In this post, I will share my experience with the last one in case anybody is planning for it.
 
@@ -37,7 +37,7 @@ In this post, I will share my experience with the last one in case anybody is pl
 - Tremendous range of topics and services: CloudFormation, CloudFront, CloudWatch, SNS, EC2, EBS, ELB, ALB, EMR, Data Pipeline, VPC, VPN, Direct Connect, ElastiCache, Elastic Beanstalk, OpsWorks, Elastic Transcoder, AWS Key Management Service, AWS Security Token Service, , CloudHSM, CloudSearch, IAM, Kinesis, RDS, DynamoDB, RedShift, S3, Glacier, Storage Gateway, AWS Import/Export, Route 53, SQS, SWF, SES, ,...almost everything
 
 
-- AWS is frequently updating existing services and is continuously releasing new services: Definitely, they don't assume to know all services, Nevertheless, you feel there is no line of demarcation.
+- AWS is frequently updating existing services and is continuously releasing new services: Definitely, they don't assume to know all services, Nevertheless, you feel there is no line of measurement.
 
 ## Preparation
 
@@ -47,7 +47,7 @@ In this post, I will share my experience with the last one in case anybody is pl
 
 - Online Course: I watched CSA Professional exam Preparation courses of Linuxacademy.com, cloudacademy.com and acloud.guru. They were all wonderful and they are a set of complementary courses.
 
-- **White papers** Do not ignore this treasure.
+- **White papers** : Do not ignore this treasure.
 
 ## Tips
 
@@ -61,24 +61,32 @@ In this post, I will share my experience with the last one in case anybody is pl
 # Exam tips
 
 
-- EBS optimization, IOPS, MB/s and limits of them. Burstable credits also.
+- EBS optimization, IOPS, Burstable credits.
 
-- Federated access, AssumeRoleWithSAML & AssumeRoleWithWebIdentity - know the flow and the difference among them.
+- Federated access, AssumeRoleWithSAML & AssumeRoleWithWebIdentity know the difference among them.
 
-- Mobile push notification using SNS
+- Mobile push notification using SNS.
 
 - ElasticBeanstalk vs OpsWorks : Smattering is not enough, a deep knowledge and hands-on are crucial.
 
-- DDoS attacks mitigation
+- DDoS attacks mitigation.
 
 - IDS/IPS setup ... promiscuous  mode is not allowed in AWS VPC. Keep this in mind!
 
 
-- Hybrid solutions: VPN IPsec vs Direct Connect : The first is suitable for security and integrity requirements and the last is suitable for network consistency (High and stable bandwidth throughput)
+- Hybrid solutions: VPN IPsec vs Direct Connect : The first is suitable for security and integrity requirements and the last is suitable for network consistency (High and stable bandwidth throughput).
 
 - Direct connect again: If you feel you cannot understand this technology, deep dive into it by watching courses about AWS advanced networking exam preparation.
 
+- Implement DR or Disaster recovery : There are 4 models. Deep dive into them.
 
+- RTO vs RPO in the context of DR.
+
+- Reach low RTO by: elastic scaling,  monitoring scripts.
+
+- Reach low RPO by: consistent backup tools.
+
+- Why multi-AZ architecture , Why multi-region architecture ?
 
 
 ____
