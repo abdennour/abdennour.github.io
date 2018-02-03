@@ -89,6 +89,11 @@ In this post, I will share my experience with the last one in case anybody is pl
 - Why multi-AZ architecture , Why multi-region architecture ?
 
 
+
+## Celebration
+
+ Finally, I celebrated this achievement [on Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:6365283708064403456). Welcome 🎉 !
+
 ____
 
 
