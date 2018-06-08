@@ -17,6 +17,7 @@ I am also Top 1 stackoverflow user in my Country Tunisia 🇹🇳 according to m
 
 Also certified 🥇 :
 
+- 🥇 Professional Cloud Architect - Google Cloud
 - 🥇 AWS Solutions Architect - Professional
 - 🥇 AWS DevOps Engineer - Professional
 - 🏅 AWS Solutions Architect - Associate
