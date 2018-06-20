@@ -4,11 +4,13 @@ comments: true
 title:  "Getting Started with Krypton - New way to secure your SSH keys"
 date:   2018-06-20 05:27:00 +0454
 categories: Security Kryptonite Krypton Infrastructure Encryption Abdennour Tunisia
+excerpt: "Krypton is a new way to deal with your SSH keys. You will still able to use the public key in your laptop, however, you secure the private with a hardware which is your phone device "
+image: {{ "assets/krypton/accept-request.png" | absolute_url }}
 ---
 
 # Introduction
 
-Krypton is a new way to deal with your SSH keys (namely the private one). You will still able to use them in your laptop, however, you secure them with a hardware which is your phone device.
+Krypton is a new way to deal with your SSH keys (namely the private one). You will still able to use the public key in your laptop, however, you secure the private with a hardware which is your phone device.
 
 Since the official documentation is the best friend for researchers, [krypt.co](https://krypt.co/docs/security/threat-model.html) explains why using Krypton to store SSH keys:
 
@@ -19,7 +21,7 @@ Since the official documentation is the best friend for researchers, [krypt.co](
 
 # Prerequisites
 
-1- Laptop with Unix kernel (macOS, Debian, RedHAT). I will use my macbook for this demo.
+1- Laptop with Unix kernel (macOS, Debian, RedHAT). I will use my Macbook for this demo.
 
 2- Real phone device with OS: Android or iOS.
 
@@ -30,7 +32,8 @@ Virtual device which requires:
 * Virtualbox 5.2.6 or up
 * Genymotion 2.10.0 or up
 
-
+Nevertheless, I am still not sure if it will work with Virtual devices.
+Indeed, I opened [an issue](https://github.com/kryptco/kr/issues/216) about the compatibility of Krypton with virtual devices.
 
 # Getting Started
 
