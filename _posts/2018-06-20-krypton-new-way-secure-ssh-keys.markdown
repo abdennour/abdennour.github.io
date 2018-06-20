@@ -8,7 +8,7 @@ excerpt: "Krypton is a new way to deal with your SSH keys. You will still able t
 image: "assets/krypton/accept-request.png"
 ---
 
-# Introduction
+## Introduction
 
 Krypton is a new way to deal with your SSH keys (namely the private one). You will still able to use the public key in your laptop, however, you secure the private with a hardware which is your phone device.
 
@@ -19,7 +19,7 @@ Since the official documentation is the best friend for researchers, [krypt.co](
 > With Krypton, even the worst compromise is limited to only SSH logins explicitly authorized by you. At the core, phone operating systems are built with better sandboxing than their desktop counterparts. This is why security experts like Matt Green recommend phones for your most sensitive data.
 
 
-# Prerequisites
+## Prerequisites
 
 1- Laptop with Unix kernel (macOS, Debian, RedHAT). I will use my Macbook for this demo.
 
@@ -35,10 +35,10 @@ Virtual device which requires:
 Nevertheless, I am still not sure if it will work with Virtual devices.
 Indeed, I opened [an issue](https://github.com/kryptco/kr/issues/216) about the compatibility of Krypton with virtual devices.
 
-# Getting Started
+## Getting Started
 
 
-## Install Krypton on Laptop
+# Install Krypton on Laptop
 
 
 ```sh
@@ -47,14 +47,14 @@ brew install kryptco/tap/kr
 # For other OSs, check out: https://krypt.co/docs/start/installation.html
 ```
 
-## Install Kryptonite on phone device
+# Install Kryptonite on phone device
 
 - Open browser (.i.e: Chrome)
 - Navigate to : [https://get.krypt.co](https://get.krypt.co)
 - This link redirects you to the AppStore if your device is iOS and to GooglePlay if it is android
 - Install the application
 
-## Pairing Phone device and Laptop
+# Pairing Phone device and Laptop
 
 - [Laptop] Run `kr pair`
 - A QR Code displays as stdout of the previous command
@@ -80,7 +80,7 @@ Host *
 	IdentityFile ~/.ssh/id_dsa%
 ```
 
-## The moment of Truth
+# The moment of Truth
 
 
 - [Laptop] SSH to test server
@@ -110,7 +110,7 @@ i.e: Tap "ONCE" option.
  You are successfully SSH to the test server. Congratulations!
 
 
-# What's next ?
+## What's next ?
 
 Now, it's time to reinforce your Infrastructure security by using [krypton with your Bastion hosts (Jump server)](https://krypt.co/docs/ssh/using-a-bastion-host.html).
 
