@@ -7,14 +7,14 @@
   <meta name="author" content="Abdennour TOUMI" >
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <meta property="article:published_time" content="{{page.date}}" />
-  <meta property="og:title"
+  <meta prefix="og: http://ogp.me/ns#" property="og:title"
       content="{% if page.title %}
         {{ page.title | strip_html | strip_newlines | truncate: 160 }}
       {% else %}
         {{ site.title }}
       {% endif %}">
 
-  <meta property="og:description"
+  <meta prefix="og: http://ogp.me/ns#" property="og:description"
       content="{% if page.excerpt %}
           {{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
         {% else %}
@@ -22,12 +22,12 @@
         {% endif %}">
 
 
-  <meta property="og:url"
+  <meta prefix="og: http://ogp.me/ns#" property="og:url"
       content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" >
 
-  <meta property="og:site_name" content="{{ site.title }}" >
+  <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="{{ site.title }}" >
 
-  <meta property="og:locale" content="en_US" >
+  <meta prefix="og: http://ogp.me/ns#" property="og:locale" content="en_US" >
   {% for tag in page.categories %}
     <meta property="article:tag" content="{{tag}}" >
   {% endfor %}
@@ -37,10 +37,10 @@
   <meta name="twitter:card" content="summary_large_image" >
 
   {% if page.image %}
-    <meta property="og:image" content="{{page.image | absolute_url}}" >
+    <meta prefix="og: http://ogp.me/ns#" property="og:image" content="{{page.image | absolute_url}}" >
     <meta name="twitter:image" content="{{page.image | absolute_url}}" >
   {% else %}
-    <meta property="og:image" content="{{ "assets/default-image.png" | absolute_url}}" >
+    <meta prefix="og: http://ogp.me/ns#" property="og:image" content="{{ "assets/default-image.png" | absolute_url}}" >
     <meta name="twitter:image" content="{{ "assets/default-image.png" | absolute_url}}" >
   {% endif %}
 
