@@ -62,8 +62,9 @@ Note that, `/Library/Ballerina/ballerina-0.975.1` is the output of `which baller
 
 ## Getting Started 
 
+![ballerina banner]({{ "/assets/post-ballerina-k8s/banner.png" | absolute_url }})
 
-# Hello World
+# 1. Hello World
 
 **Snippet**
 
@@ -75,7 +76,57 @@ function main (string... args) {
 }
 ```
 
-
 **Related Commit** 
 
 - [623e36f](https://github.com/abdennour/helloworld-ballerina-kubernetes/commit/623e36fa11b111e0a06991dd0710ca50fd89e015)
+
+
+**Test it**
+
+```
+ballerina run hello.bal
+```
+
+![ballerina run hello.bal]({{ "/assets/post-ballerina-k8s/ballerina_run_hello.png" | absolute_url }})
+
+# 2. Hello World API
+
+**Snippet**
+
+```java
+import ballerina/http;
+import ballerina/log;
+
+endpoint http:Listener helloListener {
+    port:8888
+};
+
+@http:ServiceConfig {
+    basePath: "/"
+}
+service<http:Service> hello bind helloListener {
+    sayHello (endpoint caller, http:Request request) {
+        http:Response response = new;
+        response.setPayload("Hello API from elegance.abdennoor.com!");
+         _ = caller -> respond(response);
+    }
+}
+```
+This is a simple web service that was bounded to an HTTP endpoint with port 8888.
+
+**Related commit**
+
+- [1b45ff3](https://github.com/abdennour/helloworld-ballerina-kubernetes/commit/1b45ff338963b04fe75e1e3a2c12493f1ea231085)
+
+**Test it**
+
+```sh
+ballerina run hello_api.bal
+```
+
+**Validate**
+
+```sh
+curl -s http://localhost:8888/sayHello
+# Hello API from elegance.abdennoor.com!
+```
