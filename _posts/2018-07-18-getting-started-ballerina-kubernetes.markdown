@@ -5,14 +5,14 @@ title:  "Getting Started - Ballerina Language with Kubernetes"
 date:   2018-06-20 05:27:00 +0454
 categories: Microservice CloudNative Ballerina Programming Language Kubernetes DevOps Abdennour Tunisia
 excerpt: "..."
-image: "assets/ballerina-k8s.png"
+image: "assets/microservice/ballerina-k8s.png"
 ---
 
 ## Introduction
 
 After building your application/microservice, you start thinking about deploying it to Kubernetes cluster. Thus, a set of kubernetes resources (deployment, service, ingress,...) should be implemented in order to achieve that.
 
-[Ballerina](https://ballerina.io/) is a Cloud Native Programming Language. It eases the development of microservices. Indeed, it integrates with Kubernetes smoothly by providing some elegant annotations (`@kubernetes:*`). You just need to decorate your code by those annotations, and Ballerina platform will scaffold your code throughout the "Build" stage.  
+However, using [Ballerina](https://ballerina.io/), a Cloud Native Programming Language, eases the development of microservices by smoothly integrating them with Kubernetes. Indeed, Ballerina provides a set of  elegant annotations (`@kubernetes:*`) to scaffold Kubernetes resources throughout the "Build" stage.  
 
 
 ## Prerequisites
@@ -59,3 +59,21 @@ After installing the extension, editor's settings should be updated as following
 
 Note that, `/Library/Ballerina/ballerina-0.975.1` is the output of `which ballerina` command line.
 
+
+## Getting Started 
+
+
+# Hello World
+
+**Snippet**
+
+```java
+import  ballerina/io;
+
+function main (string... args) {
+    io:println("Hello World From elegance.abdennoor.com!");
+}
+```
+
+
+**Related Commit** 
