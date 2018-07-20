@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: 🐎 Elegance
 email: mail@abdennoor.com
+owner: Abdennour Toumi
 permalink: /:title
 description: >
   Elegance Blog proves how an elegant programming should be.
@@ -22,7 +23,7 @@ description: >
   we are sure you will apologize us 👋
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
+twitter_username: AbdennourToumi
 github_username:  abdennour
 
 # Build settings
