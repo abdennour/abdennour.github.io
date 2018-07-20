@@ -5,7 +5,7 @@ title:  "Getting Started with Krypton - New way to secure your SSH keys"
 date:   2018-06-20 05:27:00 +0454
 categories: Security Kryptonite Krypton Infrastructure Encryption Abdennour Tunisia
 excerpt: "Krypton is a new way to deal with your SSH keys. You will still able to use the public key in your laptop, however, you secure the private with a hardware which is your phone device "
-image: "assets/krypton/accept-request.png"
+image: "/assets/krypton/accept-request.png"
 ---
 
 ## Introduction
