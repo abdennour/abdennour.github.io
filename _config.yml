@@ -22,7 +22,7 @@ description: >
   It might be an over engineering, however,
   we are sure you will apologize us 👋
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://elegance.abdennoor.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AbdennourToumi
 github_username:  abdennour
 
