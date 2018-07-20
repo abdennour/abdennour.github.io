@@ -209,6 +209,7 @@ service<http:Service> hello bind helloListener {
 - [11ad13e](https://github.com/abdennour/helloworld-ballerina-kubernetes/commit/11ad13ed7bfeccd854fef3ab06981dfd07d1acc6)
 
 **Build it**
+
 When you build a Ballerina code with Kubernetes annotations, The platform generate a set of files, namely:
 
 1. `.balx` which is bytecode after compile (like `.class` in java)
