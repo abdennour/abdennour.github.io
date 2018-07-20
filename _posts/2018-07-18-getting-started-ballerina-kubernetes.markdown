@@ -4,7 +4,7 @@ comments: true
 title:  "Getting Started - Ballerina Language with Kubernetes"
 date:   2018-06-20 05:27:00 +0454
 categories: Microservice CloudNative Ballerina Programming Language Kubernetes DevOps Abdennour Tunisia
-excerpt: "..."
+excerpt: "Focus on developing your microservices, and Ballerina will generate the suitable Kubernetes templates for you."
 image: "assets/microservice/ballerina-k8s.png"
 ---
 
