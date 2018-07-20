@@ -211,9 +211,9 @@ service<http:Service> hello bind helloListener {
 **Build it**
 When you build a Ballerina code with Kubernetes annotations, The platform generate a set of files, namely:
 
-1 - `.balx` which is bytecode after compile (like `.class` in java)
-2 - Generate Dockerfile and Kubernetes templates inside `kubernetes/` directory.
-3 - Build the docker image according to the Dockerfile which is already scaffolded according to the usage of `@kubernetes:*` annotations.
+1. `.balx` which is bytecode after compile (like `.class` in java)
+2. Generate Dockerfile and Kubernetes templates inside `kubernetes/` directory.
+3. Build the docker image according to the Dockerfile which is already scaffolded according to the usage of `@kubernetes:*` annotations.
 
 
 ```sh
@@ -226,6 +226,7 @@ ballerina build hello_kubernetes.bal
 **Run it**
 
 In order to make the application up and running in Kubernetes, there are two more steps after the build step: 
+
 1. Push the docker image to the registry (not required with minikube).
 2. Deploy the kubernetes templates using `kubectl`
 
