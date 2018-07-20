@@ -117,7 +117,7 @@ You can define endpoints as many as you want, then bind one of them to your serv
 
 **Related commit**
 
-- [1b45ff3](https://github.com/abdennour/helloworld-ballerina-kubernetes/commit/1b45ff338963b04fe75e1e3a2c12493f1ea231085)
+- [1b45ff3](https://github.com/abdennour/helloworld-ballerina-kubernetes/commit/1b45ff338963b04fe75e1e3a2c12493f1ea23108)
 
 **Run it**
 
