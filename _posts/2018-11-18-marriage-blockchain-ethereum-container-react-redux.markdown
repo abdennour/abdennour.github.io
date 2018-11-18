@@ -18,7 +18,7 @@ After finishing watching the required learning materials for the fifth project, 
 
 I designed my solution to run each component in container:
 
-- **Ganache** (Old name is TestRPC) A local ethereum network
+- **Ganache** (Old name is TestRPC) A local ethereum network.
 - **Truffle** This is the development environment of development Dapp and namely the smart contracts
 - **frontend** This is the web application that reads injected Web3 from Metamask, call contracts and send transactions
 - **API** This is the place where you expose your RESTFul API if needed.
@@ -29,7 +29,7 @@ By running my Dapp in containers with an orchestration (Docker compose),  I took
 
 - **Mitigate the amount of documentation** Instead of writing in the README `"install Ganache version x.x, install node modules, install truffle version,...blah blah"` , `docker-compose up -d` is the only command that you will need to have all services up and running.
 
-- **Avoid hard coding** During Dapp implementation, one of steps is copy the compiled contract, namely [ABI](https://solidity.readthedocs.io/en/develop/abi-spec.html) from the truffle project and paste it in the frontend app as JSON file. 
+- **Avoid hard coding** During Dapp implementation, one of steps is to copy the compiled contract, namely [ABI](https://solidity.readthedocs.io/en/develop/abi-spec.html) from the truffle project and paste it in the frontend app as JSON file. 
 By running both components (truffle and frontend) inside containers, you could share the ABI between "truffle" service and "frontend" service using **volumes** and no copy/paste is required.
 
 - **DNS Discovery** By orchestrating containers with Docker compose , each container can communicate/ping the other container by its name.
