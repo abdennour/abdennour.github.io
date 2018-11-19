@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "The Mariage among Blockchain/Ethereum Tech, Container Tech and React/Redux framework"
+title:  "The Marriage among Blockchain/Ethereum Tech, Container Tech and React/Redux framework"
 date:   2018-11-18 18:33:59 +0328
 categories: blockchain blockchain-technology ethereum ethereum-contract ethereum-token erc721 react redux redux-form truffle truffle-testing docker containers metamask ganache rinkeby solidity javascript
 excerpt: "This is about my implementation of the 5th project during my nanodegree, Blockchain Developer nanodegree, with Udacity. Everything is running in container; Local ethereum network with Ganache, Smart contracts with Truffle, Frontend with React and Redux and API with NodeJS. All are running in containers"
